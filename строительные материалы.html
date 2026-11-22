@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Рабочий лист — Строительные ископаемые (достаточный)</title>
+<style>
+  @page { size: A4; margin: 15mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000; background: #fff; font-size: 16pt; line-height: 1.3;
+    margin: 0 auto; padding: 0; max-width: 190mm;
+  }
+  .header { margin-bottom: 4mm; }
+  .header .fio { font-size: 16pt; margin-bottom: 4mm; border-bottom: 1.5px solid #000; padding-bottom: 2mm; }
+  .header .fio span { border-bottom: 1.5px dotted #000; display: inline-block; width: 110mm; height: 1em; }
+  .header h1 { font-size: 24pt; font-weight: bold; margin: 0 0 2mm 0; }
+  
+  .task-table { width: 100%; border-collapse: collapse; margin-bottom: 4mm; page-break-inside: avoid; }
+  .task-table td { border: 2.5px solid #000; padding: 3mm 4mm; vertical-align: top; }
+  
+  .task-head { display: flex; align-items: flex-start; gap: 3mm; margin-bottom: 2mm; }
+  .task-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 12mm; height: 12mm; border: 2px solid #000; border-radius: 4px;
+    font-size: 22pt; font-weight: bold; flex: 0 0 auto; line-height: 1;
+  }
+  .icon-circle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 12mm; height: 12mm; border: 2px solid #000; border-radius: 50%;
+    font-size: 18pt; flex: 0 0 auto; margin-right: 2mm;
+  }
+  .instruction { font-size: 16pt; padding-top: 2mm; }
+  .instruction b { font-weight: bold; }
+  .support { background: #f0f0f0; border: 1.5px solid #000; border-radius: 6px; padding: 2mm 3mm; margin: 2mm 0; font-size: 15pt; }
+  .words { font-size: 24pt; font-weight: bold; margin: 3mm 0; letter-spacing: 1px; }
+  
+  .blank { border-bottom: 2px solid #000; display: inline-block; min-width: 40mm; height: 1.2em; vertical-align: bottom; }
+  .write-line { border-bottom: 1.5px solid #000; height: 10mm; margin: 3mm 0; }
+  .write-line.short { width: 60%; }
+  
+  .pic-grid { width: 100%; border-collapse: collapse; margin: 3mm 0; }
+  .pic-grid td { border: none; padding: 2mm; text-align: center; vertical-align: top; width: 25%; }
+  .img-box {
+    width: 100%; height: 30mm; border: 1px solid #e0e0e0; border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    display: flex; align-items: center; justify-content: center;
+    background: #fff; margin-bottom: 1mm;
+  }
+  .img-box svg { width: 80%; height: 80%; }
+  .pic-caption { font-size: 14pt; font-weight: bold; }
+  
+  .level { text-align: right; font-size: 10pt; margin-top: 5mm; color: #000; }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="fio">Фамилия, имя: <span></span></div>
+    <h1>Тема: Строительные полезные ископаемые</h1>
+  </div>
+
+  <!-- ЗАДАНИЕ 1 -->
+  <table class="task-table">
+    <tr>
+      <td>
+        <div class="task-head">
+          <div class="task-num">1</div>
+          <div class="instruction">
+            <span class="icon-circle">👁</span> <b>Рассмотри</b> картинки. <b>Запиши</b> названия строительных материалов.
+          </div>
+        </div>
+        
+        <table class="pic-grid">
+          <tr>
+            <td>
+              <div class="img-box">
+                <svg viewBox="0 0 100 100"><path d="M30 80 L50 20 L70 80 Z" fill="#8d6e63"/></svg>
+              </div>
+              <div class="pic-caption">?</div>
+            </td>
+            <td>
+              <div class="img-box">
+                <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="#fbc02d"/></svg>
+              </div>
+              <div class="pic-caption">?</div>
+            </td>
+            <td>
+              <div class="img-box">
+                <svg viewBox="0 0 100 100">
+                  <rect x="30" y="30" width="40" height="40" rx="4" fill="#e0e0e0"/>
+                </svg>
+              </div>
+              <div class="pic-caption">?</div>
+            </td>
+          </tr>
+        </table>
+        <div class="write-line"></div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ЗАДАНИЕ 2 -->
+  <table class="task-table">
+    <tr>
+      <td>
+        <div class="task-head">
+          <div class="task-num">2</div>
+          <div class="instruction">
+            <span class="icon-circle">✍</span> <b>Вставь</b> пропущенные слова.
+          </div>
+        </div>
+        
+        <div class="support"><b>Слова для работы:</b> глина, песок, известняк.</div>
+        
+        <p style="margin: 2mm 0; line-height: 2;">Из <span class="blank"></span> делают кирпичи.</p>
+        <p style="margin: 2mm 0; line-height: 2;">Из <span class="blank"></span> делают стекло.</p>
+        <p style="margin: 2mm 0; line-height: 2;">Из <span class="blank"></span> делают мел.</p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ЗАДАНИЕ 3 -->
+  <table class="task-table">
+    <tr>
+      <td>
+        <div class="task-head">
+          <div class="task-num">3</div>
+          <div class="instruction">
+            <span class="icon-circle">📝</span> <b>Составь</b> и <b>запиши</b> одно правило бережного отношения к полезным ископаемым.
+          </div>
+        </div>
+        
+        <div class="support"><b>Слова-помощники:</b> беречь, экономить, природа, богатства.</div>
+        
+        <div class="write-line"></div>
+        <div class="write-line short"></div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="level">Уровень: достаточный</div>
+</body>
+</html>
